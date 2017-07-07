@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>EnglishConnect | Home</title>
+  <link rel="stylesheet" type="text/css" href="css/ecstyles.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="icon" type="image/png" href="images/PathwayLogoFavicon.png">
+</head>
+
+<body id="home" onload="getGoals()">
+  <div class="center">
+    <h1 id="title">EnglishConnect | Intermediate</h1>
+    <div id="banner" class="dark">
+      <h2 id="breadcrumbs">Home</h2>
+    </div>
+    <div id='main' class="remove">
+      <div id="leftCol" class="remove">
+        <div id='header'>
+          <div id="studentInfo">
+            <h2 id="name">Welcome to EnglishConnect</h2>
+            <p>Click the level below to download a PDF for that section.</p>
+          </div>
+        </div>
+        <div id='courses'>
+          <div class="course container listening">
+            <img src="images/icons/ECI_Listening.png">
+            <h3>Listening</h3>
+            <div class="courseWrapper">
+              <div class="tiles">
+                <a href="level4_listening.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level1_listening"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level3_listening.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level2_listening"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level2_listening.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level3_listening"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level1_listening.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level4_listening"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="course container speaking">
+            <img src="images/icons/ECI_Speaking.png">
+            <h3>Speaking</h3>
+            <div class="courseWrapper">
+              <div class="tiles">
+                <a href="level4_speaking.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level1_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level3_speaking.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level2_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level2_speaking.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level3_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level1_speaking.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level4_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="course container reading">
+            <img src="images/icons/ECI_Reading.png">
+            <h3>Reading</h3>
+            <div class="courseWrapper">
+              <div class="tiles">
+                <a href="level4_reading.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level1_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level3_reading.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level2_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level2_reading.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level3_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level1_reading.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level4_speaking"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="course container writing">
+            <img src="images/icons/ECI_Writing.png">
+            <h3>Writing</h3>
+            <div class="courseWrapper">
+              <div class="tiles">
+                <a href="level4_writing.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level1_writing"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level3_writing.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level2_writing"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level2_writing.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level3_writing"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+                <a href="level1_writing.pdf">
+                  <div class="tile">
+                    <div class="color green" id="level4_writing"></div>
+                    <div class="label">
+                      <h3 class="afterIcon">Level</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      <script type="text/javascript" src="js/goals.js"></script>
+      <script src="js/grades.js" type="text/javascript"></script>
+      <script src="js/scripts.js" type="text/javascript"></script>
+    </p>
+  </div>
+</body>
+
+</html>
