@@ -1,7 +1,7 @@
 
 
 body{padding-top:40px;}
-
+.cardfix{box-sizing:border-box;}
 .navbar-collapse{justify-content:center;}
 
 .anchorfix {
