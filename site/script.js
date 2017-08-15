@@ -6,7 +6,7 @@ var nav = $('nav');
 var navHeight = nav.outerHeight();
 
 // click-trigger
-$('a[href*="#"]').click(function(event) {
+$('nav a[href*="#"]').click(function(event) {
   scrollToSection(this);
   event.preventDefault();
 });
