@@ -1,14 +1,6 @@
-
-
 body{padding-top:40px;}
-
 .navbar-collapse{justify-content:center;}
-
-.anchorfix {
-    padding-top: 60px;
-    margin-top:-60px;
-}
-
+/*.anchorfix {padding-top: 60px;margin-top:-60px;}*/
 .pathway-green {background-color:rgb(107,165,57)}
 .pathway-purple{background-color: rgb(136,88,159)}
 .pathway-red{background-color:rgb(237,88,92)}
