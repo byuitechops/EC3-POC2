@@ -6,7 +6,7 @@ var nav = $('nav');
 var navHeight = nav.outerHeight();
 
 // click-trigger
-$('a[href*="#"]:not([href="#"])').click(function(event) {
+$('nav a[href*="#"]').click(function(event) {
   scrollToSection(this);
   event.preventDefault();
 });
@@ -17,7 +17,7 @@ $(document).scroll(function() {
 });
 
 // get target position and scrolls to it
-scrollToSection = (self) => {
+scrollToSection = function(self) {
   // get the target href
   var href = $(self).attr('href');
 
@@ -31,7 +31,7 @@ scrollToSection = (self) => {
 }
 
 // updates active section on scroll
-activateSection = () => {
+activateSection = function() {
   // get all sections
   var sections = $('.section');
 
