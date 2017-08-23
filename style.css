@@ -8,3 +8,5 @@ body{padding-top:40px;}
 .pathway-blue{background-color:rgb(10,160,164)}
 .pathway-yellow{background-color:rgb(251,204,41)}
 h3{font-size: 1.35rem;}
+button a{color: #111;}
+button a:hover{color: #111;}
