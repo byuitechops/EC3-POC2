@@ -1,12 +1,46 @@
-body{padding-top:40px;}
-.navbar-collapse{justify-content:center;}
+body {
+    padding-top: 40px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+
 /*.anchorfix {padding-top: 60px;margin-top:-60px;}*/
-.pathway-green {background-color:rgb(107,165,57)}
-.pathway-purple{background-color: rgb(136,88,159)}
-.pathway-red{background-color:rgb(237,88,92)}
-.pathway-orange{background-color: rgb(228,86,29)}
-.pathway-blue{background-color:rgb(10,160,164)}
-.pathway-yellow{background-color:rgb(251,204,41)}
-h3{font-size: 1.35rem;}
-button a{color: #111;}
-button a:hover{color: #111;}
+
+.pathway-green {
+    background-color: rgb(107, 165, 57)
+}
+
+.pathway-purple {
+    background-color: rgb(136, 88, 159)
+}
+
+.pathway-red {
+    background-color: rgb(237, 88, 92)
+}
+
+.pathway-orange {
+    background-color: rgb(228, 86, 29)
+}
+
+.pathway-blue {
+    background-color: rgb(10, 160, 164)
+}
+
+.pathway-yellow {
+    background-color: rgb(251, 204, 41)
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+button a {
+    color: #111;
+}
+
+button a:hover {
+    color: #111;
+}
