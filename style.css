@@ -45,3 +45,7 @@ button a:hover {
 .container:last-of-type {
     margin-bottom: 200px;
 }
+
+img {
+    width: 75%;
+}
