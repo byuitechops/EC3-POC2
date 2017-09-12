@@ -51,7 +51,8 @@ img {
 }
 
 
-/*.card .btn{padding:0;}*/
-.card img{height:36px; width:36px;}
-.card  h4{ min-width: 76px;}
-.button-headers{display:inline-block;}
+.card .btn{padding:0;}
+.card img{height:35px; width:35px;}
+.card  h4{ min-width: 50px; font-size:35px; line-height:35px; text-align:center;}
+.card h6{font-size:15px;}
+.card table{text-align:Center;width:100%;color:white;}
