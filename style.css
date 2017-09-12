@@ -49,3 +49,9 @@ button a:hover {
 img {
     width: 75%;
 }
+
+
+/*.card .btn{padding:0;}*/
+.card img{height:36px; width:36px;}
+.card  h4{ min-width: 76px;}
+.button-headers{display:inline-block;}
