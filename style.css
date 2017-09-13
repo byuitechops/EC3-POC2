@@ -80,3 +80,7 @@ button a {
     width: 100%;
     color: white;
 }
+
+.smallCard {
+    max-width: 75%;
+}
