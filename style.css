@@ -35,7 +35,7 @@ h3 {
 }
 
 button a {
-    color: #111;
+    color: #333333;
 }
 
 button a:hover {
@@ -50,9 +50,33 @@ img {
     width: 75%;
 }
 
+button a {
+    padding: 10px;
+    font-size: 25px;
+}
 
-.card .btn{padding:0;}
-.card img{height:35px; width:35px;}
-.card  h4{ min-width: 50px; font-size:35px; line-height:35px; text-align:center;}
-.card h6{font-size:15px;}
-.card table{text-align:Center;width:100%;color:white;}
+.card .btn {
+    padding: 0;
+}
+
+.card img {
+    height: 35px;
+    width: 35px;
+}
+
+.card h4 {
+    min-width: 50px;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.card h6 {
+    font-size: 15px;
+}
+
+.card table {
+    text-align: Center;
+    width: 100%;
+    color: white;
+}
