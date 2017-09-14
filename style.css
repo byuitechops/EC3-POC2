@@ -14,6 +14,7 @@ body {
 
 
 
+
 /*.pathway-green {
     background-color: rgb(107, 165, 57)
 }
@@ -67,6 +68,9 @@ button a {
     /*    font-size: 25px;*/
 }
 
+th {
+    text-align: center;
+}
 
 
 .card button img {
