@@ -6,7 +6,15 @@ body {
     justify-content: center;
 }
 
-.pathway-green {
+.card {
+    background-color: hsl(0, 0%, 40%);
+}
+
+
+
+
+
+/*.pathway-green {
     background-color: rgb(107, 165, 57)
 }
 
@@ -28,7 +36,7 @@ body {
 
 .pathway-yellow {
     background-color: rgb(251, 204, 41)
-}
+}*/
 
 h3 {
     font-size: 1.35rem;
@@ -58,6 +66,8 @@ button a {
     padding: 10px;
     /*    font-size: 25px;*/
 }
+
+
 
 .card button img {
     height: 25px;
