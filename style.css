@@ -10,8 +10,14 @@ body {
     background-color: hsl(0, 0%, 40%);
 }
 
+.navbar-light .navbar-nav .dark-bg {
+    background-color: hsl(0, 0%, 40%);
+    border-radius: 3px;
+}
 
-
+.navbar-light .navbar-nav .dark-bg .nav-link {
+    color: white;
+}
 
 
 
