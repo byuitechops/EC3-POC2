@@ -21,7 +21,7 @@ body {
 
 
 
-/*.pathway-green {
+.pathway-green {
     background-color: rgb(107, 165, 57)
 }
 
@@ -43,7 +43,7 @@ body {
 
 .pathway-yellow {
     background-color: rgb(251, 204, 41)
-}*/
+}
 
 h3 {
     font-size: 1.35rem;
