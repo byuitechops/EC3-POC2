@@ -1,0 +1,37 @@
+[
+  '{{repeat(4)}}',
+    {
+        skill: '{{index()}}',
+        skillfunction: [
+      '{{repeat(4)}}',
+            {
+                functionindex: '{{index()}}',
+                functionname: '{{lorem(1,"word")}}',
+                functionlevel: ['{{repeat(4)}}', {
+                        level: '{{index()}}',
+                        topic: ['{{repeat(12)}}',
+                            {
+                                topicindex: '{{index()}}',
+                                topicname: '{{lorem(1,"word")}}',
+                                passage: ['{{repeat(3)}}',
+                                    {
+                                        passageindex: '{{index()}}',
+                                        passagename: '{{lorem(1,"word")}}',
+                                        questions: ['{{repeat(5)}}',
+                                            {
+                                                questionindex: '{{index()}}',
+                                                questiontext: '{{lorem(1,"sentence")}}'
+          }]
+          }
+            ]
+          }
+            ]
+
+
+          }
+
+        ]
+      }
+    ]
+  }
+]

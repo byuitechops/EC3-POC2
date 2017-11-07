@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EnglishConnect 3</title>
+    <meta name="English Connect 3" content="English as a second language">
+    <meta name="DidymusBenson" content="BYU-Idaho">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+    <link rel="stylesheet" href="./demo.css">
+</head>
+
+<body>
+
+
+      <script id="template" type="text/x-handlebars-template">
+        {{#each this}}
+            <div class="accordion1">
+                <h2>SKILL #{{skill}}</h2>
+                {{#each this.skillfunction}}
+                <div class="accordion2">
+                    <h3>FUNCTION: {{functionname}} {{functionindex}}</h3>
+                    {{#each this.functionlevel}}
+                    <div class="accordion3">
+                    <h4>LEVEL: {{level}}</h4>
+                        {{#each this.topic}}
+                        <div class="accordion4">
+                        <h5>TOPIC: {{topicname}} {{topicindex}}</h5>
+                            {{#each this.passage}}
+                            <div class="accordion5">
+                            <h6>PASSAGE: {{passagename}} {{passageindex}}</h6>
+                                {{#each this.questions}}
+                                <div class="accordion6">
+                                <p style="font-weight:bold;">
+                                    QUESTION: {{questionindex}}
+                                </p>
+                                    <p>QUESTION TEXT: {{questiontext}}</p>
+                                </div>
+                                {{/each}}
+                            </div>
+                            {{/each}}
+                        </div>
+                    {{/each}}
+                    </div>
+                    {{/each}}
+                </div>
+                    {{/each}}
+          </div>
+        {{/each}}
+    </script>
+    <div id="display">
+
+    </div>
+
+    <script src="./demo.js"></script>
+</body>
+
+</html>
