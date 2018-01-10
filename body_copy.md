@@ -1,4 +1,4 @@
-# EC3   [Markdown Editor](https://stackedit.io/app)
+# EC3 Body Copy  ([Markdown Editor](https://stackedit.io/app))
 
 Navigation.
 
