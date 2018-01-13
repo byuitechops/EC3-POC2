@@ -1,3 +1,4 @@
+
 # EC3 Body Copy  ([Markdown Editor](https://stackedit.io/app))
 
 Navigation.
@@ -70,10 +71,11 @@ Step 5: Prepare for the Weekly Gathering
 ### How Do I Improve My Ability to Be an Agent Learner?
 
 DAILY
+* Pray
+* Read the Book of Mormon in English
+* Practice Speaking to Others
 * Track Your Progress
   * Use the tracking tool to record how much time you spent practicing English.
-  * Use the scoring sheet to record your scores from the online Function Practice activities.
-
 * Self-Evaluate
   * Review your progress. Prayerfully report your progress to Heavenly Father.
   * Choose one thing to improve tomorrow.
@@ -81,7 +83,7 @@ DAILY
 
 WEEKLY
 * Self-Evaulate
-  * Review your learning plan. Review your tracking tool and scoring sheet.
+  * Review your learning plan. Review your tracking tool.
   * Set new weekly goals.
   * Make plans to accomplish your goals.
 
@@ -99,13 +101,10 @@ As you prepare and participate in the activities, your faith will grow and your 
 
 To prepare for the Weekly Gathering:
 
-* Download the [Gathering Preparation](Gathering%20Preparation%20Workbook.pdf) workbook
-* Read the introduction. Follow the instructions in the introduction.
+ - Complete the preparation assignments you receive. 
+ - Contact your action partner each week - encourage them to complete assignments.
 
-If you are the Lead Student:
 
-* Download the ["Lead Student Gathering"](Lead%20Student%20Gathering%20Workbook.pdf) workbook
-* Read the introduction. Follow the instructions in the introduction.
 
 ## Practice
 
@@ -134,3 +133,5 @@ Use these resources to achieve your learning goals.
 * [Resource List](EC3_Resource_List.pdf)
 * [Academic Vocabulary List](http://www.oxfordlearnersdictionaries.com/us/wordlist/english/academic/)
 * [Grammar Map](grammar%20map.pdf)
+
+> Written with [StackEdit](https://stackedit.io/).
