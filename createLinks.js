@@ -7,7 +7,6 @@ function setButtons(objects) {
                 if (!button.getAttribute('class').includes('btn-outline-info')) {
                     button.classList.add('btn-outline-info');
                     button.disabled = false;
-                    resolve();
                 }
             } catch (err) {
                 reject(err);
