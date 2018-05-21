@@ -21,5 +21,4 @@ function main() {
         .then(setButtons)
         .catch(console.log);
 }
-
 main();
