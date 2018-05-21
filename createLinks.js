@@ -1,31 +1,25 @@
-function getButtons() {
-    return Array.from(document.querySelectorAll('button[class*="btn"]'));
-}
-
-function setClass(buttons) {
-    // Check if the button needs the 
-    buttons.forEach(button => {
-        if (!button.getAttribute('class').includes('btn-outline-info')) {
-            button.classList.add('btn-outline-info');
-            button.disabled = false;
-        }
-    });
-    console.log(buttons);
-}
-
-function setLinks(objects) {
+function setButtons(objects) {
     return new Promise((resolve, reject) => {
-        var buttons = getButtons();
-        resolve(buttons.filter(button => {
-            return true;
-        }));
+        objects.forEach((object) => {
+            try {
+                var button = document.querySelector(`button[id=${object.quizId}]`);
+                button.querySelector('a').setAttribute('href', `https://pathway.lds.org/LangEval/Test?source=${object.source}&provider=EC`);
+                if (!button.getAttribute('class').includes('btn-outline-info')) {
+                    button.classList.add('btn-outline-info');
+                    button.disabled = false;
+                    resolve();
+                }
+            } catch (err) {
+                reject(err);
+            }
+        });
     });
 }
 
 function main() {
     d3.csv('ec3Links.csv')
-        .then(setLinks)
-        .then(setClass);
+        .then(setButtons)
+        .catch(console.log);
 }
 
 main();
