@@ -1,13 +1,13 @@
 /******************************************************
  *              setButtons()
  * 
- * description: The setButtons function takes in an 
+ * Description: The setButtons function takes in an 
  * array of objects from the CSV and iterates through
- * them to create links inside of buttons on the 
+ * them; This creates links inside of buttons on the 
  * practice.html webpage. If a link is created the 
  * button receives a blue outline.
  * 
- * return type: Promise
+ * Return Type: Promise
  ****************************************************/
 function setButtons(objects) {
     return new Promise((resolve, reject) => {
@@ -18,7 +18,7 @@ function setButtons(objects) {
                 if (object.source === '') {
                     return;
                 } else {
-                    // The current object's source is not empty
+                    // The current object's source property is not empty
                     // Grab the correct button using the object's quizId property
                     var button = document.querySelector(`#${object.quizId}`);
                     // Select the button's a tag and set its href to the correct link using the object's source property
@@ -27,6 +27,7 @@ function setButtons(objects) {
                     if (!button.getAttribute('class').includes('btn-outline-info')) {
                         // Button does not have a blue outline, add one
                         button.classList.add('btn-outline-info');
+                        // Some buttons are disabled, enable them
                         button.disabled = false;
                     }
                 }
@@ -38,10 +39,17 @@ function setButtons(objects) {
     });
 }
 
-// The driver function for creating links and setting buttons
+/******************************************************
+ *                      main()
+ * 
+ * Description: The driver function for creating links
+ * and setting buttons.
+ * 
+ * Return Type: None
+ ****************************************************/
 function main() {
     // Use d3.csv to read in the CSV file and transform it into objects
-    // the d3.csv function return the objects wrapped inside of a promise
+    // The d3.csv function returns the objects wrapped inside of a promise
     d3.csv('ec3Links.csv')
         .then(setButtons)
         .catch(console.log);
